@@ -1,0 +1,20 @@
+{
+  "exclude": [".env"],
+  "include": [ "src/**/*.ts", "src/authAdmin.ts" ],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": [
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "esnext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+  },
+
+}
